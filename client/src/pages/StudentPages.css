@@ -1,0 +1,70 @@
+/* In client/src/pages/StudentPages.css */
+.student-layout {
+  background-color: #f0f2f5;
+  min-height: calc(100vh - 70px); /* Full height minus navbar */
+}
+
+.student-content {
+  padding: 40px;
+}
+
+.student-page-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.student-page-container h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.elections-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.error-message {
+  color: #721c24;
+  background-color: #f8d7da;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* In client/src/pages/StudentPages.css */
+.elections-list-results .election-result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.elections-list-results .btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: #007bff;
+}
+.results-display {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.results-display ul {
+  list-style-type: none;
+  padding: 0;
+}
+.results-display li {
+  font-size: 1.1em;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}

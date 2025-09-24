@@ -1,0 +1,32 @@
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 70px;
+}
+.admin-nav-logo h3 {
+  color: #007bff;
+  margin: 0;
+}
+.admin-nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.admin-nav-links a.active {
+  color: #007bff;
+  border-bottom: 3px solid #007bff;
+}
+.logout-btn {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

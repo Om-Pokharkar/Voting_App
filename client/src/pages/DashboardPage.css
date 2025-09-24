@@ -1,0 +1,13 @@
+/* In client/src/pages/DashboardPage.css */
+.dashboard-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-page h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}

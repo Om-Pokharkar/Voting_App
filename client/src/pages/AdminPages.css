@@ -1,0 +1,125 @@
+/* In client/src/pages/AdminPages.css */
+.admin-layout {
+  background-color: #f0f2f5;
+  min-height: calc(100vh - 70px); /* Full height minus navbar */
+}
+
+.admin-content {
+  padding: 40px;
+}
+
+.admin-page-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.admin-page-container h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* Table Styles */
+.responsive-table {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f9f9f9;
+}
+
+/* Status Pill Styles */
+.status {
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+.status.upcoming { background-color: #17a2b8; }
+.status.active { background-color: #28a745; }
+.status.completed { background-color: #6c757d; }
+.status.published { background-color: #007bff; }
+
+/* Action Button Styles */
+.actions-cell {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+.btn.manage { background-color: #007bff; }
+.btn.close { background-color: #ffc107; color: #333; }
+.btn.publish { background-color: #28a745; }
+.btn.delete { background-color: #dc3545; }
+
+/* Manage Election Page Styles */
+.back-link {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+.add-candidate-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.add-candidate-form input {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.add-candidate-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.candidates-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.candidates-list li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-left: 5px solid #007bff;
+}
+
+/* General message styles */
+.status-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.success { color: #155724; background-color: #d4edda; }
+.error-message, .error { color: #721c24; background-color: #f8d7da; }

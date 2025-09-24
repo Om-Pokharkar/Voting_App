@@ -1,0 +1,36 @@
+/* In client/src/components/ElectionCard.css */
+.election-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+.election-card:hover {
+  transform: translateY(-5px);
+}
+.election-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+.election-dates {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 0.9em;
+  margin: 15px 0;
+}
+.vote-now-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.vote-now-btn:hover {
+  background-color: #0056b3;
+}
